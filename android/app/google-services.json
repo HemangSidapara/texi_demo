@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "824299527511",
+    "project_id": "taxidemo-e90b0",
+    "storage_bucket": "taxidemo-e90b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824299527511:android:4d1ebb5aff728261b7b212",
+        "android_client_info": {
+          "package_name": "com.texidemo.texi_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824299527511-ltq2ha3ikiei0ssuk2uq8k4ngsq2ca6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.texidemo.texi_demo",
+            "certificate_hash": "7bd9caa8d9f0aad6c6a3a5e7745f4c9cd12c4359"
+          }
+        },
+        {
+          "client_id": "824299527511-1kgg9nhj3uh7hmv5ru2iju02rq0n5hue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYe67z8LKyuO4TWyAetJ6X_duQ_XW1dnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824299527511-1kgg9nhj3uh7hmv5ru2iju02rq0n5hue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
