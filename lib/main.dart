@@ -3,14 +3,14 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_google_places/flutter_google_places.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
-import 'package:location/location.dart' as Geolocator;
+import 'package:google_api_headers/google_api_headers.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:google_maps_webservice/places.dart';
+import 'package:location/location.dart' as Geolocator;
 import 'package:texi_demo/calender.dart';
 import 'package:texi_demo/const.dart';
 import 'package:texi_demo/direction.dart';
 import 'package:texi_demo/direction_model.dart';
-import 'package:google_maps_webservice/places.dart';
-import 'package:google_api_headers/google_api_headers.dart';
 import 'package:texi_demo/notification_services.dart';
 
 void main() async {
@@ -57,7 +57,7 @@ class _MapScreenState extends State<MapScreen> {
   Set<Marker> markersList = {};
   final Completer<GoogleMapController> controller = Completer();
   CameraPosition initialCameraPosition = const CameraPosition(target: LatLng(0, 0));
-  var mapType;
+  MapType mapType = MapType.normal;
 
   late BitmapDescriptor customIcon;
 
